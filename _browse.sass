@@ -68,21 +68,26 @@
             display: flex
             justify-content: center
             flex-wrap: wrap
+            
             .third
                 margin-top: 20px
         .box
             flex-wrap: wrap
             .imgbox
                 margin: auto
+                width: 200px
             .minibox
                 flex-direction: column
-                    // h2
+                h2
+                    margin-bottom: -30px
 
-    //             .add
-    //                 input
-
-    // @media ( max-width: 490px )
-    //     .menu
-    //         flex-direction: column
-    //     .box
-    //         .imgbox
+    @media ( max-width: 490px )
+        .menu 
+            flex-direction: column
+            .btn
+                padding: 10px 140px
+            .second
+                margin-top: 20px    
+        .box
+            .imgbox
+                width: 400px

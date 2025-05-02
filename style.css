@@ -329,8 +329,26 @@ header .menu .buttons .blue {
   }
   #browse .box .imgbox {
     margin: auto;
+    width: 200px;
   }
   #browse .box .minibox {
     flex-direction: column;
+  }
+  #browse .box .minibox h2 {
+    margin-bottom: -30px;
+  }
+}
+@media (max-width: 490px) {
+  #browse .menu {
+    flex-direction: column;
+  }
+  #browse .menu .btn {
+    padding: 10px 140px;
+  }
+  #browse .menu .second {
+    margin-top: 20px;
+  }
+  #browse .box .imgbox {
+    width: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
