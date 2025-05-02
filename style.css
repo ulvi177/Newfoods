@@ -233,6 +233,10 @@ header .menu .buttons .blue {
   }
 }
 
+#browse {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
 #browse .textbox {
   text-align: center;
 }
@@ -251,19 +255,22 @@ header .menu .buttons .blue {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browse .btn {
+#browse .menu {
+  padding-bottom: 40px;
+}
+#browse .menu .btn {
   font-size: 18px;
   border: 0.5px solid #bdbdbd;
   padding: 15px 46px;
   margin: 0 20px;
   border-radius: 5px;
 }
-#browse .bgc {
+#browse .menu .bgc {
   background-color: #3cc1d8;
-  color: white;
+  color: #ffffff;
 }
 #browse .box {
-  padding: 30px;
+  background-color: #ffffff;
 }
 #browse .box .imgbox {
   width: 150px;
@@ -276,50 +283,54 @@ header .menu .buttons .blue {
 #browse .box .textbox .minibox h2 {
   font-size: 22px;
   font-weight: 700;
+  margin-top: 50px;
 }
 #browse .box .textbox .minibox h5 {
   color: #3cc1d8;
   font-size: 18px;
+  margin-top: 50px;
 }
 #browse .box .textbox p {
-  margin: 15px 0;
   font-size: 18px;
   line-height: 1.2;
   color: rgba(35, 47, 66, 0.5215686275);
+  margin: 20px 0 50px;
+}
+#browse .box .textbox .add {
+  margin-bottom: 50px;
 }
 #browse .box .textbox .add input {
   border: 1px solid #e1e1e1;
   background-color: #e9e9e9;
-  width: 50px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
 }
 #browse .box .textbox .add .btn {
   background-color: #3cc1d8;
   color: white;
-  padding: 7px 20px;
+  padding: 8px 15px;
 }
 #browse .big {
   padding: 17px 53px;
   margin-top: 50px;
 }
-@media (max-width: 992px) {
-  #browse .menu {
-    flex-direction: column;
-  }
-}
 @media (max-width: 768px) {
   #browse .menu {
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #browse .menu .third {
+    margin-top: 20px;
   }
   #browse .box {
     flex-wrap: wrap;
   }
-  #browse .box .textbox .minibox {
-    flex-direction: column;
+  #browse .box .imgbox {
+    margin: auto;
   }
-}
-@media (max-width: 490px) {
-  #browse .menu {
+  #browse .box .minibox {
     flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
