@@ -269,6 +269,13 @@ header .menu .buttons .blue {
   background-color: #3cc1d8;
   color: #ffffff;
 }
+#browse .bgc {
+  background-color: #3cc1d8;
+  padding: 15px 46px;
+  margin: 0 20px;
+  border-radius: 5px;
+  color: #ffffff;
+}
 #browse .box {
   background-color: #ffffff;
 }
@@ -351,4 +358,106 @@ header .menu .buttons .blue {
   #browse .box .imgbox {
     width: 400px;
   }
+}
+
+#order {
+  padding: 40px 0;
+}
+#order .textbox {
+  width: 400px;
+}
+#order .textbox h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#order .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 0 50px 0;
+  line-height: 1.3;
+}
+#order .textbox .btn {
+  color: white;
+  font-size: 20px;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+  border-radius: 5px;
+}
+@media (max-width: 992px) {
+  #order .textbox {
+    margin: auto;
+    text-align: center;
+  }
+  #order .textbox h1 {
+    font-size: 40px;
+  }
+  #order .textbox h5 {
+    font-size: 18px;
+  }
+  #order .textbox .btn {
+    font-size: 18px;
+  }
+}
+@media (max-width: 440px) {
+  #order .textbox {
+    width: auto;
+  }
+  #order .textbox h1 {
+    font-size: 60px;
+  }
+  #order .textbox h5 {
+    font-size: 20px;
+  }
+  #order .textbox .btn {
+    font-size: 20px;
+  }
+}
+
+#callour {
+  background-color: #f1f8f9;
+}
+#callour .textbox h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #36b3bd;
+}
+#callour .textbox h5 {
+  color: #676f8b;
+  font-size: 20px;
+  margin: 25px 0 50px 0;
+  line-height: 1.3;
+}
+#callour .textbox .btn {
+  font-size: 20px;
+  color: white;
+  background-color: #38b6c1;
+  padding: 13px 34px;
+  margin-bottom: 40px;
+}
+#callour .imgbox {
+  width: auto;
+}
+
+#support .textbox {
+  padding: 0 80px;
+}
+#support .textbox h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+#support .textbox span {
+  color: rgba(36, 102, 114, 0.5137254902);
+}
+#support .textbox .btn {
+  font-size: 22px;
+  color: #38b6c1;
+  padding: 10px 30px;
+  background-color: white;
+  margin: 30px 0;
+}
+#support .bgc {
+  background-color: #35b6c1;
 }/*# sourceMappingURL=style.css.map */
